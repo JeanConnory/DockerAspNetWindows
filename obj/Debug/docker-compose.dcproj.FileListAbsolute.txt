@@ -1,0 +1,16 @@
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\EFCoreSqlServer.deps.json
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\EFCoreSqlServer.runtimeconfig.json
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\appsettings.Development.json
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\appsettings.json
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\EFCoreSqlServer.exe
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\EFCoreSqlServer.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\Microsoft.Identity.Client.dll
+D:\Pessoais\Estudo\Docker\EFCoreDocker\bin\Debug\EFCoreSqlServer.pdb
+D:\Pessoais\Estudo\Docker\EFCoreDocker\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Pessoais\Estudo\Docker\EFCoreDocker\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Pessoais\Estudo\Docker\EFCoreDocker\obj\Debug\docker-compose.dcproj.CopyComplete
