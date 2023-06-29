@@ -1,0 +1,34 @@
+*** DOCKER ***
+
+- Images
+	* Comandos:
+		- Listar Imagens: docker image ls
+		- Baixar imagens: docker image pull mysql:5.7
+		- Inspecionar Imagem: docker image inspect mysql:5.7
+
+- Containers
+	* Comandos:
+		- Iniciar container: docker start <nome container>
+		- Rodar container: docker container run -d(em background) --name <nomedocontainer>
+		- Entrar dentro do container: docker container exec -it(iterativo) mysql(nome do container) /bin/bash(abre o bash) |  mysql -u root -p
+		- Remover container: docker container rm <nomedocontainer>
+
+- Volumes
+	-> Armazenam dados	
+	-> Não perde dados excluindo o container
+	-> Mapeia no Docker Host onde vão ficam os dados
+	* Comandos:
+		- Criar Volumes: docker volume create <nome>
+		- Listar Volumes: docker volume ls
+		- Mapenado Volumes em pastas: docker container run -v <volume ou pasta_host>:<pasta_container> nomedaimagem | Ex: -v $(pwd)/teste:/usr/share
+									  docker container run -d --name mysql -v(volume) dadosdb:/var/lib/mysql -e(variavel de ambiente) MYSQL_ROOT_PASSWORD=numsey mysql:5.7
+									  
+									  
+- Redes:
+	* Comandos:
+		- Listar as redes: docker network ls
+		- Inspecionar uma rede: docker network inspect bridge
+		- criar uma rede: docker network create --driver bridge <nomedarede> 
+			ps: Ao criar um container, ele já pode ser vinculado a uma rede ex: docker container run -it --name alp1 --nte redealpine alpine
+		- Conectar um container a uma rede: docker network connect <nomedarede> <nomedocontainer>
+		
